@@ -1,0 +1,46 @@
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 250px;
+  background-color: gray;
+  border-radius: 5px;
+  margin-bottom: 20px;
+
+}
+.card-name{
+  padding-left:10px;
+  margin: 0;
+}
+.card-body{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+.birthday-atr{
+  padding-left: 10px;
+}
+.wrapperCard{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.commentAdd{
+  width: 25px;
+  color: #2e2a2a;
+}
+.card-footer{
+  display: flex;
+  flex-direction: column;
+}
+.apply-button{
+  width: 50px
+}
+.button-icon{
+  display: flex;
+}
+.comments-list{
+  display: flex;
+  flex-direction: column;
+}
